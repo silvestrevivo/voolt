@@ -1,1 +1,10 @@
-// place files you want to import through the `$lib` alias in this folder.
+export type Industry = {
+  id: number;
+  isPopular: boolean;
+  mostCommonServices: number[];
+  name: string;
+  services: { id: number; name: string }[];
+  synonyms: string[];
+  type: string;
+  wpId: number;
+};

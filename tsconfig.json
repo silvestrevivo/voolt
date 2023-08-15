@@ -13,6 +13,7 @@
       "$lib": ["./src/lib"],
       "$lib/*": ["./src/lib/*"],
       "$blocks/*": ["./src/lib/blocks/*"],
+      "$actions/*": ["./src/actions/*"],
       "$utils/*": ["./src/utils/*"],
       "$types/*": ["./src/types/*"],
       "$stores/*": ["./src/stores/*"],
